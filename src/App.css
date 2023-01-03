@@ -16,3 +16,8 @@ h1 {
   width: 610px;
   margin: 0 auto;
 }
+
+.playagain {
+  display: flex;
+  margin: auto;
+}
