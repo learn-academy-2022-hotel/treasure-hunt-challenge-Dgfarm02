@@ -42,9 +42,11 @@ const [treasureLocation, setTreasureLocation]= useState(Math.floor(Math.random()
         )
       })}
       </div>
-
+      <br />
+      <button onClick={() => window.location.reload(false)} className="playagain">Play Again!</button>
     </>
   )
 }
+
 
 export default App
